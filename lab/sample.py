@@ -15,7 +15,7 @@ from pathlib import Path
 from jupyterlab.labapp import LabApp
 
 
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
 def launch(default_competition: str = None):
     """generic function to launch Jupyter Lab in a custom env
